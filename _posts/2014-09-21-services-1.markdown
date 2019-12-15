@@ -1,8 +1,8 @@
 ---
 layout: default
-img: ipad.png
+img: cloud.jpg
 category: Services
-title: Death to the Stock Photo:<br>Special Thanks
+title: Public & Private Cloud
 description: |
 ---
-  A special thanks to [Death to the Stock Photo](http://join.deathtothestockphoto.com/) for providing the photographs that you see in this template.  Visit their website to become a member!
+  Xây dựng hệ thống Private và Public Cloud dựa trên nền tảng mã nguồn mở Openstack.

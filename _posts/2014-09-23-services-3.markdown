@@ -1,8 +1,8 @@
 ---
 layout: default
-img: phones.png
+img: amazon-web-services-s3.png
 category: Services
-title: Google Web Fonts and<br>Font Awesome Icons
+title: Amazone S3 Like
 description: |
 ---
-This template features the 'Lato' font, part of the [Google Web Font library](http://www.google.com/fonts), as well as [icons from Font Awesome](http://fontawesome.io).
+Xây dựng hệ thống Simple Storage dựa trên nền tảng Storage Ceph.

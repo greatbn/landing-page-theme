@@ -9,19 +9,27 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#home">{{ site.title }}</a>
+            <!-- <a class="navbar-brand page-scroll" href="#home">{{ site.title }}</a> -->
+            <div>
+                {% if page.url != '/' %}
+				<a href="../" target="_self"><img class="headerIcon" src="{{site.app_icon  | relative_url }}"></a>
+                {% else %}
+                    <img class="headerIcon" src="{{ site.app_icon }}">
+                {% endif %}
+            </div>
+
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">  
             	<li>
-                    <a class="page-scroll" href="#about">About</a>
+                    <a class="page-scroll" href="#about">Về chúng tôi</a>
                 </li>            
                 <li>
-                    <a class="page-scroll" href="#services">Services</a>
+                    <a class="page-scroll" href="#services">Dịch vụ</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <a class="page-scroll" href="#contact">Liên hệ</a>
                 </li>
             </ul>
         </div>

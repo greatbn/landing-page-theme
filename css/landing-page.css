@@ -164,3 +164,10 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+.headerIcon {
+	width: 150px;
+	height: 60px;
+	-webkit-clip-path: url(#shape);
+	clip-path: url(#shape);
+}
